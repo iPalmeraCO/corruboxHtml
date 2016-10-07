@@ -1,0 +1,276 @@
+/* FUENTES*/ 
+
+@font-face {
+    font-family: 'cardobold';
+    src: url('fonts/cardo-bold-webfont.woff2') format('woff2'),
+         url('fonts/cardo-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'cardoitalic';
+    src: url('fonts/cardo-italic-webfont.woff2') format('woff2'),
+         url('fonts/cardo-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'cardoregular';
+    src: url('fonts/cardo-regular-webfont.woff2') format('woff2'),
+         url('fonts/cardo-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'latoblack';
+    src: url('fonts/lato-black-webfont.woff2') format('woff2'),
+         url('fonts/lato-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'latoblack_italic';
+    src: url('fonts/lato-blackitalic-webfont.woff2') format('woff2'),
+         url('fonts/lato-blackitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'latobold';
+    src: url('fonts/lato-bold-webfont.woff2') format('woff2'),
+         url('fonts/lato-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'latobold_italic';
+    src: url('fonts/lato-bolditalic-webfont.woff2') format('woff2'),
+         url('fonts/lato-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'latohairline';
+    src: url('fonts/lato-hairline-webfont.woff2') format('woff2'),
+         url('fonts/lato-hairline-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'latolight_italic';
+    src: url('fonts/lato-lightitalic-webfont.woff2') format('woff2'),
+         url('fonts/lato-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'latolight';
+    src: url('fonts/lato-light-webfont.woff2') format('woff2'),
+         url('fonts/lato-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'latoitalic';
+    src: url('fonts/lato-italic-webfont.woff2') format('woff2'),
+         url('fonts/lato-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'latohairline_italic';
+    src: url('fonts/lato-hairlineitalic-webfont.woff2') format('woff2'),
+         url('fonts/lato-hairlineitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'latoregular';
+    src: url('fonts/lato-regular-webfont.woff2') format('woff2'),
+         url('fonts/lato-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* */ 
+
+#mainNav{
+	position: fixed;
+	
+}
+
+#bs-example-navbar-collapse-1 {
+	background-color: initial;
+}
+
+.align-left{
+	text-align: left;
+}
+
+.titulo1{
+	font-size: 18px;
+	font-weight: bold;
+	color: #002769;
+
+}
+
+.titulo2{
+	font-family: latoregular;
+	font-size: 30px;
+	color: #474747;
+	font-weight: bold;
+}
+
+.titulo3{
+	font-family: latobold;
+	font-size: 12px;
+	color : #0060ff;
+	font-weight: bold;
+}
+
+.text {
+	font-family: latoregular;
+	color: #929292;
+}
+
+.text2{
+	font-family: latobold;
+	color: #474747;
+	font-size: 14px;
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+}
+
+.list{
+	padding-left: 0px;
+	list-style:none;
+}
+
+ul.list > li:before {
+  	content: "-";
+	padding-right: 10px;
+}
+
+.grande{
+	font-size: 48px;
+}
+
+.grande span {
+	font-size: 12px;
+    position: absolute;
+    bottom: 35px;
+    left: 160px;
+}
+
+.space{
+	margin-top: 20px;
+}
+.flex{
+	display: flex;
+}
+.fondo img {
+	width: 100%;
+}
+
+.pcontact{
+	font-family: latobold;
+	color: #474747;
+	font-size: 12px;
+}
+
+.pcontact span  a{
+	color: #0072ff;	
+}
+
+.copy{
+	font-family: latobold;
+	margin-top: 35px;
+	font-size: 10px
+}
+
+@media(max-width:767px){
+
+	.flex{
+		display: initial;
+	}
+
+	.text2{
+		position: initial;
+	}
+}
+
+#about2  h2, #about1 h2{
+	margin-bottom: 20px;
+}
+
+.ma {
+	margin-bottom: 0px !important;
+}
+
+.ma2 {
+	margin-top: 0px !important;
+}
+#myMap{
+	position: initial !important;
+	height: 640px;
+}
+
+#contact{
+	padding: 30px 0px;
+}
