@@ -307,6 +307,7 @@ ul.list > li:before {
 
 #mainNav{
   border: none;
+  padding-bottom: 15px;
 }
 
 .amazingcarousel-title{
