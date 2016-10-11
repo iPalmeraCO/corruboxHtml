@@ -186,8 +186,15 @@
 .text {
 	font-family: latoregular;
 	color: #929292;
+  margin: 0px;
+  text-align: justify;
 }
 
+.iso {
+  text-align: center;
+  font-weight: normal;
+  font-size: 30px;
+}
 .text2{
 	font-family: latobold;
 	color: #474747;
@@ -202,6 +209,19 @@
 	list-style:none;
 }
 
+.list li span{
+  color: #474747;
+  font-weight: bold !important;
+}
+
+.listinstalaciones li {
+  color: #002769;
+  font-weight: bold;
+  font-size: 16px;
+}
+.list li{
+  margin-bottom: 10px;
+}
 ul.list > li:before {
   	content: "-";
 	padding-right: 10px;
@@ -241,8 +261,13 @@ ul.list > li:before {
 .copy{
 	font-family: latobold;
 	margin-top: 35px;
-	font-size: 10px
+	font-size: 10px;
+  text-align: center;
 }
+
+.imgcor img {
+    margin-top: 60px;
+  }
 
 @media(max-width:767px){
 
@@ -253,6 +278,10 @@ ul.list > li:before {
 	.text2{
 		position: initial;
 	}
+
+  .imgcor img {
+    margin-top: 20px;
+  }
 }
 
 #productos  h2, #servicios h2{
@@ -282,7 +311,7 @@ ul.list > li:before {
 .amazingcarousel-title{
   display: none;
 }
-/*
+
 
 .amazingcarousel-list-wrapper , .amazingcarousel-list-container, {
   width: 100% !important;
@@ -290,4 +319,23 @@ ul.list > li:before {
 
 #amazingcarousel-1{
   max-width: 100% !important;
-}*/
+}
+
+#amazingcarousel-1 .amazingcarousel-image img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+.center{
+  text-align: center;
+}
+
+section {
+      padding: 30px 0px;
+}
