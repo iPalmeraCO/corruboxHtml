@@ -61,7 +61,7 @@ aside {
     padding: 0;
 }
 .navbar-default {
-    background-color: #fff;
+    background-color: #d4d4d4;
     border-color: rgba(34, 34, 34, .05);
     transition: all .35s;
 }
@@ -132,6 +132,11 @@ aside {
 }
 .navbar-default.affix .nav>li>a:focus:hover, .navbar-default.affix .nav>li>a:hover {
     color: #F05F40;
+}
+
+.navbar-header {
+    margin-right: -20px;
+
 }
 }header {
     min-height: auto;

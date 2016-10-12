@@ -1,6 +1,6 @@
 /* FUENTES*/ 
 
-@font-face {
+/*@font-face {
     font-family: 'cardobold';
     src: url('fonts/cardo-bold-webfont.woff2') format('woff2'),
          url('fonts/cardo-bold-webfont.woff') format('woff');
@@ -58,7 +58,7 @@
 
 
 @font-face {
-    font-family: 'latobold';
+    font-family: 'Baskerville';
     src: url('fonts/lato-bold-webfont.woff2') format('woff2'),
          url('fonts/lato-bold-webfont.woff') format('woff');
     font-weight: normal;
@@ -68,7 +68,7 @@
 
 
 @font-face {
-    font-family: 'latobold_italic';
+    font-family: 'Baskerville_italic';
     src: url('fonts/lato-bolditalic-webfont.woff2') format('woff2'),
          url('fonts/lato-bolditalic-webfont.woff') format('woff');
     font-weight: normal;
@@ -148,7 +148,13 @@
 
 }
 /* */ 
+* {
+  font-family: Baskerville;
+}
 
+body {
+  font-family: Baskerville;
+}
 #mainNav{
 	position: fixed;
 	
@@ -170,21 +176,21 @@
 }
 
 .titulo2{
-	font-family: latoregular;
+	font-family: Baskerville;
 	font-size: 30px;
 	color: #474747;
 	font-weight: bold;
 }
 
 .titulo3{
-	font-family: latobold;
+	font-family: Baskerville;
 	font-size: 12px;
 	color : #0060ff;
 	font-weight: bold;
 }
 
 .text {
-	font-family: latoregular;
+	font-family: Baskerville;
 	color: #929292;
   margin: 0px;
   text-align: justify;
@@ -196,7 +202,7 @@
   font-size: 30px;
 }
 .text2{
-	font-family: latobold;
+	font-family: Baskerville;
 	color: #474747;
 	font-size: 14px;
 	position: absolute;
@@ -249,7 +255,7 @@ ul.list > li:before {
 }
 
 .pcontact{
-	font-family: latobold;
+	font-family: Baskerville;
 	color: #474747;
 	font-size: 12px;
 }
@@ -259,7 +265,7 @@ ul.list > li:before {
 }
 
 .copy{
-	font-family: latobold;
+	font-family: Baskerville;
 	margin-top: 35px;
 	font-size: 10px;
   text-align: center;
@@ -340,4 +346,16 @@ ul.list > li:before {
 
 section {
       padding: 70px 0px 0px 0px;
+}
+
+.navbar-header{
+  margin-top: 3%;
+}
+
+@media (min-width: 600px) and (max-width: 1300px) {
+
+#homeHeading{
+  margin-top: 10%;
+}
+
 }

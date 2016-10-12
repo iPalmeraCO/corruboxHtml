@@ -11,7 +11,9 @@ var mapOptions = {
   zoom: 16,      
   mapTypeId: google.maps.MapTypeId.ROADMAP,    
   backgroundColor:"#2C2C2C",
-  disableDefaultUI:true
+  disableDefaultUI:true, 
+  scrollwheel: false,
+   zoomControl: true,
 }
 
   // Creating the Custom Google Map
