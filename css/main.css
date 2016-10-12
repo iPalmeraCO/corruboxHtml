@@ -373,9 +373,32 @@ section {
 
 #imgprin { 
 
-      margin-left: -60px;
+    margin-left: -40px;
+    margin-top: -18px;
+    margin-right: 6px;
 }
 
 .navbar-nav li a{
   font-family: cardoregular;
+}
+
+.l1, .l2{
+  display: inline-block;
+  color: #FFF;
+  font-family: cardoregular;
+  font-size: 35px;
+}
+
+.l1{
+  font-weight: bold;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.affix  .l1 {
+  color: #002769;
+}
+
+.affix  .l2 {
+  color: #d4d4d4;
 }

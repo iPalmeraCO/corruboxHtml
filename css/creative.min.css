@@ -117,7 +117,7 @@ aside {
     color: #fff;
 }
 .navbar-default.affix {
-    background-color: #d4d4d4;
+    background-color: #fff;
     border-color: rgba(34, 34, 34, .05);
 }
 .navbar-default.affix .navbar-header .navbar-brand {
@@ -128,7 +128,7 @@ aside {
     color: #eb3812;
 }
 .navbar-default.affix .nav>li>a, .navbar-default.affix .nav>li>a:focus {
-    color: #222;
+    color: #002769;
 }
 .navbar-default.affix .nav>li>a:focus:hover, .navbar-default.affix .nav>li>a:hover {
     color: #F05F40;
