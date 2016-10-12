@@ -55,10 +55,13 @@
             function ajustarseparador(){
                 var value = $(".container").css("margin-left");
                 $(".carousel-caption").css("left", value);
+                var altura=$("#myCarousel").height();
+                var tam = altura/5;
+                $(".carousel-caption").css("top", tam+"px");
             }
 
             $('.carousel').carousel({
-  interval: 1000 * 10
+  interval: 1000 
 });
 
             
@@ -131,21 +134,21 @@
 
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="img/c_1.png" alt="Chania">
+      <img src="img/1.jpg" alt="Chania">
         <div class="carousel-caption">              
          <h1 id="homeHeading">Empresa 100% Mexicana,<br>con más de 24 años de experiencia<br> en el mercado.</h1>
          </div>
       </div>
 
     <div class="item">
-      <img src="img/c_2.png" alt="Chania">
+      <img src="img/2.jpg" alt="Chania">
         <div class="carousel-caption">        
          <h1 id="homeHeading"> Soluciones integrales de empaque<br>y servicios logísticos.</h1>                
          </div>
       </div>
 
     <div class="item">
-      <img src="img/c_3.png" alt="Flower">
+      <img src="img/3.jpg" alt="Flower">
         <div class="carousel-caption">
          <h1 id="homeHeading"> Triple corrugado —  <br> Garantía de alta producción. </h1>
          </div>

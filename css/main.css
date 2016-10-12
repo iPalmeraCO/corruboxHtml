@@ -318,7 +318,7 @@ ul.list > li:before {
 
 #mainNav{
   border: none;
-  padding-bottom: 15px;
+  
 }
 
 .amazingcarousel-title{
@@ -354,7 +354,7 @@ section {
 }
 
 .navbar-header{
-  margin-top: 3%;
+      margin-top: -15px;
 }
 
 @media (min-width: 600px) and (max-width: 1300px) {
