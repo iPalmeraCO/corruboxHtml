@@ -366,7 +366,9 @@ section {
 }
 
 #homeHeading{
-  font-family: cardoregular;
+      font-family: cardoregular;
+    font-size: 54px;
+    text-align: left;
 }
 
 #imgprin { 
