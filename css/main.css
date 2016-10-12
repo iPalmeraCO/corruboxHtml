@@ -293,6 +293,23 @@ ul.list > li:before {
   .imgcor img {
     margin-top: 20px;
   }
+
+   .l1 {
+  color: #002769 !important;
+}
+ .l2 {
+  color: #d4d4d4 !important;
+}
+
+.l1, .l2 {
+  font-size: 5vw !important;
+}
+#homeHeading {
+  font-size: 5vw !important;
+}
+#imgprin {
+    margin-left: 10px !important;
+    }
 }
 
 #productos  h2, #servicios h2{
@@ -408,7 +425,7 @@ display: block;
 height: auto;
 max-width: 100%;
 line-height: 1;
-width: 100%; // Add this
+width: 100%; 
 }
 
 .carousel-caption {
