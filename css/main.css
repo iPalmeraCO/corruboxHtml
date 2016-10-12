@@ -1,6 +1,6 @@
 /* FUENTES*/ 
 
-/*@font-face {
+@font-face {
     font-family: 'cardobold';
     src: url('fonts/cardo-bold-webfont.woff2') format('woff2'),
          url('fonts/cardo-bold-webfont.woff') format('woff');
@@ -58,7 +58,7 @@
 
 
 @font-face {
-    font-family: 'Baskerville';
+    font-family: 'Baskervillennnn';
     src: url('fonts/lato-bold-webfont.woff2') format('woff2'),
          url('fonts/lato-bold-webfont.woff') format('woff');
     font-weight: normal;
@@ -68,7 +68,7 @@
 
 
 @font-face {
-    font-family: 'Baskerville_italic';
+    font-family: 'Baskerville_italicnn';
     src: url('fonts/lato-bolditalic-webfont.woff2') format('woff2'),
          url('fonts/lato-bolditalic-webfont.woff') format('woff');
     font-weight: normal;
@@ -147,7 +147,7 @@
     font-style: normal;
 
 }
-/* */ 
+
 * {
   font-family:  'Libre Baskerville', serif;
 }
@@ -192,8 +192,8 @@ body {
 .text {
 	font-family:  'Libre Baskerville', serif;
 	color: #929292;
-  margin: 0px;
-  text-align: justify;
+  margin: 0px;  
+  font-size: 12px;
 }
 
 .iso {
@@ -213,6 +213,7 @@ body {
 .list{
 	padding-left: 0px;
 	list-style:none;
+      font-size: 12px;
 }
 
 .list li span{
@@ -271,9 +272,12 @@ ul.list > li:before {
   text-align: center;
 }
 
-.imgcor img {
-    margin-top: 60px;
-  }
+
+@media(min-width:768px){
+.textosfun {
+    padding-right: 132px
+}
+}
 
 @media(max-width:767px){
 
@@ -359,3 +363,13 @@ section {
 }
 
 }
+
+#homeHeading{
+  font-family: cardoregular;
+}
+
+#imgprin { 
+
+      margin-left: -60px;
+}
+
