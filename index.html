@@ -322,8 +322,10 @@
 
                 ajustarseparador() ;
                 
-                $( "#menuopen" ).click(function() {
+                $( "#menuopen" ).click(function(event) {
+              event.preventDefault();
               $(".nav.navbar-nav").toggle();
+
             });
                         });
 
