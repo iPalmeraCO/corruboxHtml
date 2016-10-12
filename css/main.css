@@ -402,3 +402,25 @@ section {
 .affix  .l2 {
   color: #d4d4d4;
 }
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+display: block;
+height: auto;
+max-width: 100%;
+line-height: 1;
+width: 100%; // Add this
+}
+
+.carousel-caption {
+       top: 30%;
+       left: 8%;
+}
+
+#myCarousel > div > a.left.carousel-control > span.glyphicon.glyphicon-chevron-left{
+  display: none;
+}
+
+
+#myCarousel > div > a.right.carousel-control > span.glyphicon.glyphicon-chevron-right{
+  display: none;
+}
