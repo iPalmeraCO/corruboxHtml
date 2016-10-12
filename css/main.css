@@ -281,7 +281,13 @@ ul.list > li:before {
 }
 
 @media(max-width:767px){
-
+  #menuopen {
+        margin-top: 30px;
+  }
+  .immo{
+    width: 100%;
+    margin-bottom: 20px;
+  }
 	.flex{
 		display: initial;
 	}
@@ -293,7 +299,9 @@ ul.list > li:before {
   .imgcor img {
     margin-top: 20px;
   }
-
+ .contentlogo {
+  margin-top: 20px;
+ }
    .l1 {
   color: #002769 !important;
 }

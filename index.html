@@ -89,7 +89,7 @@
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="container">
         <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <button id="menuopen" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
                 
@@ -184,7 +184,7 @@
                    
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 center imgcor">   
-                    <img src="img/imgcorrubox.jpg">
+                    <img class="immo" src="img/imgcorrubox.jpg">
                     <h3 class="titulo3 iso">CERTIFICACIÓN ISO 9000 </h3>
                    
                 </div>
@@ -251,7 +251,7 @@
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <h2 class="section-heading align-left titulo1">INSTALACIONES</h2>
-                        <img src="img/mapa.jpg">                     
+                        <img class="immo" src="img/mapa.jpg">                     
                     </div>
                 </div> 
             
@@ -322,8 +322,10 @@
 
                 ajustarseparador() ;
                 
-
+                $( "#menuopen" ).click(function() {
+              $(".nav.navbar-nav").toggle();
             });
+                        });
 
             /*$( window ).resize(function() {
               ajustarseparador();
