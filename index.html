@@ -39,26 +39,6 @@
     
     <script type="text/javascript">
 
-            $( document ).ready(function() {
-                
-
-                ajustarseparador() ;
-                
-
-            });
-
-            $( window ).resize(function() {
-              ajustarseparador();
-              
-            });
-
-            function ajustarseparador(){
-                var value = $(".container").css("margin-left");
-                $(".carousel-caption").css("left", value);
-                var altura=$("#myCarousel").height();
-                var tam = altura/5;
-                $(".carousel-caption").css("top", tam+"px");
-            }
 
             $('.carousel').carousel({
   interval: 1000 
@@ -173,7 +153,7 @@
     <section id="corrubox">
         <div class="container">
              <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 div1">
                     <h2 class="section-heading align-left titulo1">CORRUBOX</h2>
                     <h2 class="align-left titulo2 ma">Soluciones integrales de</h2>
                     <h2 class="align-left titulo2 ma ma2">empaque y servicios logísticos</h2>
@@ -192,8 +172,13 @@
                       En Corrubox, nos enorgullecemos de crear e implementar soluciones a la medida de acuerdo a las necesidades de cada cliente y proyecto.
                     </p>
                     <p class="text-faded text">                  
-                        Somos pioneros en la fabricación de Triple Corrugado en México, lo que nos posiciona como la mejor alternativa para la fabricación de empaques de autopartes de exportación así como materiales pesados, esto debido a nuestra excelente calidad y tiempos de fabricación para abastecer la demanda variable de los clientes y no tener desabasto de empaques en picos de producción inesperados.
-                        Ubicados estratégicamente para abastecer a los principales corredores automotrices del país. 25 años de experiencia desarrollando proyectos para líneas de ensamble, CKD y Refacciones, de las principales armadoras automotrices en México, así como implementación especializada de Centros de ensamble, almacenaje, manejo de materiales, transporte y empaque para bancos de piezas y proyectos especiales.
+                        Somos pioneros en la fabricación de Triple Corrugado en México, lo que nos posiciona como la mejor alternativa para la fabricación de empaques de autopartes de exportación así como materiales pesados, esto debido a nuestra excelente calidad y tiempos de fabricación para abastecer la demanda variable de los clientes y no tener desabasto de empaques en picos de producción inesperados. 
+                    </p>
+                    <p class="text-faded text">                  
+                        Ubicados estratégicamente para abastecer a los principales corredores automotrices del país. 
+                    </p>
+                    <p class="text-faded text">                  
+                         25 años de experiencia desarrollando proyectos para líneas de ensamble, CKD y Refacciones, de las principales armadoras automotrices en México, así como implementación especializada de Centros de ensamble, almacenaje, manejo de materiales, transporte y empaque para bancos de piezas y proyectos especiales.
                     </p>
 
                    
@@ -306,7 +291,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 text-center">
                     <p class="pcontact">Avenida Uno 15-5, La Higuera Atizapán Edo. de México - 52940 <span><a href="mailto:ventas@corrubox.com.mx">ventas@corrubox.com.mx</a></span></p>
-                    <p class="pcontact">+52 55 5824 51 52 F. +52 55 5822 49 42  <span><a href="mailto:info@corrubox.com.mx">info@corrubox.com.mx</a></span></p>
+                    <p class="pcontact">T. + 52 55 5824 51 50 F. + 52 55 5822 49 42 <span><a href="mailto:info@corrubox.com.mx">info@corrubox.com.mx</a></span></p>
 
                     <p class="copy text">Industrias Corrubox, S.A. de C.V. Todos los derechos reservados Industrias.</p>
                 </div>               
@@ -329,7 +314,37 @@
     <!-- Theme JavaScript -->
     <script src="js/creative.min.js"></script>
 
-  
+    <script type="text/javascript">
+
+
+            $( document ).ready(function() {
+                
+
+                ajustarseparador() ;
+                
+
+            });
+
+            /*$( window ).resize(function() {
+              ajustarseparador();
+              
+            });*/
+
+            function ajustarseparador(){
+                var value = $(".container").css("margin-left");
+                $(".carousel-caption").css("left", value);
+                var altura=$("#myCarousel").height();
+                var tam = altura/5;
+                
+                if (tam == 0){
+                    tam=30+"%";
+                } else {
+                    tam = tam+"px";
+                }
+                $(".carousel-caption").css("top",tam);
+            }
+
+    </script>
 </body>
 
 </html>

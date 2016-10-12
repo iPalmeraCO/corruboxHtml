@@ -441,3 +441,7 @@ width: 100%;
 #myCarousel > div > a.right.carousel-control > span.glyphicon.glyphicon-chevron-right{
   display: none;
 }
+
+.div1{
+  margin-bottom: 20px;
+}
